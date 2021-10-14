@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family: sans-serif;
+	font-family: Helvetica;
 }
 
 .content{
@@ -9,15 +9,15 @@ body{
 	margin: 0 auto;
 }
 
-.headline{text-align: center;font-family: "Ubuntu",sans-serif;}
+.headline{text-align: center;font-family: "Windows",Helvetica;}
 
 
 table th{
 	width:200px;
-	border: 1px solid black;
+	border: 1px solid rgb(124, 18, 18);
 	padding: 20px;
-	background: gray;
-	color: white;
+	background: rgba(18, 15, 189, 0.808);
+	color: rgb(255, 255, 255);
 }
 
 table td{
@@ -26,10 +26,10 @@ table td{
 }
 
 .update_task{
-	margin-left: 100px;
+	margin-top: 100px;
 }
 .update_task #content{
-	width: 300px;
+	width: 500px;
 }
 a{
 	text-decoration: none;
