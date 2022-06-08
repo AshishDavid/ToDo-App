@@ -116,3 +116,5 @@ status:
   readyReplicas: 1
   availableReplicas: 1
   observedGeneration: 1
+
+
