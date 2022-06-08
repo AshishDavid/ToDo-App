@@ -1,6 +1,9 @@
 # ToDo-App
 Hello everyone !
 Steps to use it:-
-Use these commands to install the libraries
-1) pip install -r requirements.txt (You should be in the ToDo- App Directory)
-2) Then Run the program normally by commandline or by any IDE.
+
+
+1) Download the project from my github repo.
+2) Create a virtual environment if you wish.
+3) Instal dependencies "pip install -r requirements.txt" (You should be in the ToDo- App Directory)
+4) Then Run the program normally by commandline or by any IDE.
