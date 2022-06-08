@@ -8,7 +8,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///tasks.db'
 
 db = SQLAlchemy(app)
 
-
 class Todo(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     task = db.Column(db.String(100), nullable=False)
@@ -63,3 +62,5 @@ def update(id):
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000, host="0.0.0.0")
+
+    
